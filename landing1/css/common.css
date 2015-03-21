@@ -29,7 +29,6 @@
 
 #top-nav {
     float:left;
-    height: 152px;
 	font-size: 16px;
 	margin: 68px;
 	padding: 0;
@@ -68,7 +67,6 @@
     background: #87509c;
     border: 0;
     height: 30px;
-    display: inline;
     margin-left: 7px;
 
 }
