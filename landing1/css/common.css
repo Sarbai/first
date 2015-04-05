@@ -16,37 +16,38 @@ a:hover {
 /* CVETNIE BLOKI*/
 
 .block1, .block2, .block3, .block4, .block5 {
-	width: 1440px;
+	width: 100%;
+	
 }
 
 .block1 {
 	height: 596px;
 	background: #87509c;
-	margin: 0 auto;
+	
 }
 
 .block2 {
 	height: 745px;
 	background: #17c2a4;
-	margin: 0 auto;
+	
 }
 
 .block3 {
 	height: 912px;
 	background: #E7F1F8;
-	margin: 0 auto;
+	
 }
 
 .block4 {
 	height: 655px;
 	background: #fff;
-	margin: 0 auto;
+	
 }
 
 .block5 {
 	height: 596px;
 	background: #ffdd99;
-	margin: 0 auto;
+	
 }
 
 .logo-img {
@@ -82,11 +83,11 @@ a:hover {
 }
 
 
-#top-nav li {
-    display: inline; /* Отображать как строчный элемент */
+/*#top-nav li {
+    display: inline;  Отображать как строчный элемент 
 
 }
-
+*/
 
 
 #top-nav a:hover {
@@ -149,18 +150,4 @@ a:hover {
 
 
 
-/* ------  CLEARFIX ------  */
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-}
 
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
